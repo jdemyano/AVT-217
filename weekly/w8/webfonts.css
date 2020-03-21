@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background-color: paleturquoise;
+}
+
+h1 {
+	font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+	font-family: 'Bellota Text', cursive;
+    font-size: 20px;
+}
+
+h4 {
+	font-family: "Nobile Regular";
+    font-size: 20px;
+}
+
+h5 {
+	font-family: 'Aller Bd', cursive;
+    font-size: 20px;
+}
+
+h6 {
+	font-family: "Rubik Black", cursive;
+    font-size: 20px;
+}
+
+h7 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size: 40px;
+    border-bottom: 2px solid #00A3FF;
+}
