@@ -118,6 +118,7 @@ logo {
 }
 
 .backgroundimage{
+	width: auto;
     background-position: center;
     background-repeat: no-repeat;
 }
