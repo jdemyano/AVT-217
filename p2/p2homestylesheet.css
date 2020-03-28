@@ -32,19 +32,29 @@ footer, header, hgroup, menu, nav, section {
 }
 
 header {
+  width:0 auto;
+  margin:0 auto;
   margin-top: 20px;
   margin-left: 30px;
   text-align: center;   
   text-shadow: .05em .05em .1em gray;
+  background-color: rgba(255,255,255,.5);
   background: 
-	url(logo.png) left no-repeat;
+	url(logo.png) 15% 50% no-repeat;
 }
 
 body {
+	width: auto;
 	line-height: 1;
 	font-family: "Bookman Old Style";
 	color: white;
 	background-color: black;
+}
+
+.backgroundimage{
+	width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 ol, ul {
@@ -172,13 +182,13 @@ logo {
     background-repeat: no-repeat;
 }
 
-footer {
-	width: 1040px;
-	float: left;
-	/*border-top: #05007E 1px solid;*/
-	padding-top: 15px;
-	padding-left: 10px;
-	margin-bottom: 40px;
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
 }
 
 .column {
@@ -259,8 +269,8 @@ h7 {
 }
 
 p {
-	font-size: 17px;
-      padding-bottom: 12px;
+  font-size: 17px;
+  padding-bottom: 12px;
   line-height: 30px;
   margin-left: 32%;
 }
@@ -268,16 +278,22 @@ p {
 
 .topbuttons {
     display:inline-block;       
-    /*margin:0 auto;*/
     width: 50%;
     background-color: black;
     padding-top: 28px;
     padding-bottom: 28px;
-    /*margin-left: 35%;
-    overflow: hidden;*/
 }
 
 .topbuttons a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2% 5%;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topbuttons a:visited {
   float: center;
   color: #f2f2f2;
   text-align: center;
@@ -297,38 +313,77 @@ p {
   color: white;
 }
 
-.button {
-    float: center;
-    text-shadow: 2px 2px 4px gray;
-    border-radius: 8px;  
-    transition-duration: 0.4s;
-    font-color: black;
-    background-color: #FFFFFF;
-    box-shadow: 5px 10px 18px #1a1a1a;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
-    width: 305px;
-    height: 50px;
-    
-  
+.button a:link, a:visited {
+  text-shadow: 2px 2px 4px gray;
+  border-radius: 8px; 
+  transition-duration: 0.4s;
+  color: black; 
+  background-color: #FFFFFF;
+  box-shadow: 5px 10px 18px #1a1a1a;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  width: 310px;
+  height: 50px;
+  text-decoration: none;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-.button:hover {
+.button a:hover {
   background-color: #0084FF;
-  font-color: white;
+  color: white; 
 }
+
+.button a:active {
+  background-color: #000C68; 
+  color: white;
+}
+
+.backtotopbutton a:link, a:visited {
+  text-shadow: 2px 2px 4px gray;
+  border-radius: 8px; 
+  transition-duration: 0.4s;
+  color: black; 
+  background-color: #FFFFFF;
+  box-shadow: 5px 10px 18px #1a1a1a;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+  height: 18px;
+  text-decoration: none;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.backtotopbutton a:hover {
+  background-color: #0084FF;
+  color: white; 
+}
+
+.backtotopbutton a:active {
+  background-color: #000C68; 
+  color: white;
+}
+
+
+
+
+
+
+
+
 
 hr{
     border-bottom: 1px solid #FFFFFF;
 }
-/*li {
-  float: left;
-  color: white;
-  padding: 16px;
-}*/
-
 
 
 small {
