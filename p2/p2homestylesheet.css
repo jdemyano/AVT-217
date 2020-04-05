@@ -32,15 +32,15 @@ footer, header, hgroup, menu, nav, section {
 }
 
 header {
-  width:0 auto;
-  margin:0 auto;
+  width: 1040px;
+  margin:0 auto; 
   margin-top: 20px;
   margin-left: 30px;
   text-align: center;   
   text-shadow: .05em .05em .1em gray;
   background-color: rgba(255,255,255,.5);
   background: 
-	url(logo.png) 15% 50% no-repeat;
+	url(logo.png) 5% 50% no-repeat;
 }
 
 body {
@@ -109,14 +109,11 @@ table {
 .center4 {
   background-repeat: no-repeat;
   float: right;  
-  padding-right: 10%;
-  width: 10%;
+	width: 10%;
 }
 .center5 {
-  background-repeat: no-repeat;
-  float: left;  
-  padding-right: 10%;
-  width: 50%;
+  float: right;
+	width: 10%
 }
 
 logo {
@@ -132,6 +129,8 @@ logo {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
 
 .buttonpadding{
     float:center;

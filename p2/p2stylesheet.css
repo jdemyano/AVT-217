@@ -32,15 +32,15 @@ footer, header, hgroup, menu, nav, section {
 }
 
 header {
-  width:0 auto;
-  margin:0 auto;
+  width: 1040px;
+  margin:0 auto; 
   margin-top: 20px;
   margin-left: 30px;
   text-align: center;   
   text-shadow: .05em .05em .1em gray;
   background-color: rgba(255,255,255,.5);
   background: 
-	url(logo.png) 15% 50% no-repeat;
+	url(logo.png) 5% 50% no-repeat;
 }
 
 body {
@@ -107,9 +107,9 @@ table {
   width: 10%;
 }
 .center5 {
-
+	background-repeat: no-repeat;
   	float: right;
-	width: 10%
+	width: 10%;
 }
 
 logo {
@@ -136,8 +136,7 @@ main {
 }
 
 img{
-	margin-left: 20%;
-	margin-right: 20%;
+	
 	width: auto;
 }
 
@@ -147,13 +146,20 @@ img{
 }
 
 .footer {
-  /*position: fixed;*/
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
   text-align: left;
+}
+
+
+
+.socialbackgroundimage{
+	width: 10%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .column {
@@ -188,7 +194,7 @@ h2 {
 h3 {
 	font-size: 18px;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 30px;
     padding-bottom: 10px;
 }
 
