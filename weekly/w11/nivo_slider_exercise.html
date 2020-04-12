@@ -1,0 +1,38 @@
+<!doctype html public -//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <title>Nivo Slider Exercise</title>
+    <link rel="stylesheet" href="Nivo-Slider-jQuery-master/Nivo-Slider-jQuery-master/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Nivo-Slider-jQuery-master/Nivo-Slider-jQuery-master/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Nivo-Slider-jQuery-master/Nivo-Slider-jQuery-master/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Nivo-Slider-jQuery-master/Nivo-Slider-jQuery-master/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Nivo-Slider-jQuery-master/Nivo-Slider-jQuery-master/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/IMG_2231.JPG" data-thumb="images/IMG_2231.JPG" data-transition="elephant" alt="" title="1. Elephant stippling"/>
+                <img src="images/IMG_2425.JPG" data-thumb="images/IMG_2425.JPG" alt="" title="2. C-130 stippling" />
+                <img src="images/IMG_2433.JPG" data-thumb="images/IMG_2433.JPG" alt="" data-transition="sliceDownRight" title="3. Bunny stippling"/>
+                <img src="images/IMG_2440.JPG" data-thumb="images/IMG_2440.JPG" alt="" data-transition="sliceUp" title="4. Puppy stippling" />
+                <img src="images/IMG_2482.JPG" data-thumb="images/IMG_2482.JPG" alt="" data-transition="sliceUpDown" title="5. Piglet stippling" />
+                
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                Visit the <a href="https://tipsychocochip.com">tipsychocochip</a> blog for more. 
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="Nivo-Slider-jQuery-master/Nivo-Slider-jQuery-master/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="Nivo-Slider-jQuery-master/Nivo-Slider-jQuery-master/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
