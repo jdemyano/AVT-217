@@ -110,8 +110,10 @@ column-count: 2
 }
 
 .buttonpadding{
-    /*padding-left: 200px;
-    padding-right: 200px;*/
+	width: 415px;
+	float: center;
+	text-align: center;
+
 }
 
 footer {
