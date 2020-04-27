@@ -170,6 +170,26 @@ h4 {
     line-height: 20px;
     color: #7F7E7E;
 }
+h5 {
+	width: normal;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	padding-left:200px;
+	padding-right:200px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    color: #7F7E7E;
+}
+h6 {
+	width: normal;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+    line-height: 20px;
+    color: #2E2E2E;
+}
 
 p {
   font-size: 17px;
@@ -195,7 +215,7 @@ p {
     box-shadow 0.1s; 
     
 }
-.dropdownbutton a:hover, { 	
+.dropdownbutton a:hover { 	
   background-color: #2689FF; 	
   border-color: #113AFB; 
   color: white; 
