@@ -95,7 +95,7 @@ a:hover, a:active {
 }
 
 .backtotopbutton a:link, a:visited {
-  text-shadow: 2px 2px 4px gray;
+ 
   border-radius: 8px; 
   transition-duration: 0.4s;
   color: black; 

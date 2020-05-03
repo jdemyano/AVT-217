@@ -85,10 +85,24 @@ table {
 .dropdown-content {
   display: none;
   position: absolute;
-  padding: 12px 20px;
+  padding: 12px 12px;
   z-index: 1;
 }
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  padding: 12px 20px;
+  z-index: 1;
+}
+.dropdown2:hover .dropdown2-content {
   display: block;
 }
 
@@ -108,21 +122,56 @@ column-count: 2
     padding: 20px; 
     width: 415px;
 }
-
 .buttonpadding{
 	width: 415px;
 	float: center;
 	text-align: center;
+}
 
+#bottombutton{
+	width: auto;
+	float: center;
+	margin-bottom: 50px;
+	  margin-left:10%;
+}
+.bottombuttons{
+    float:left;
+    /*border-radius: 25px;
+    padding-top: 20px; 
+	padding-left: 20px; 
+	padding-right: 20px; */
+    width: 150px;
+
+}
+.bottombuttonpadding{
+	float: center;
+	margin: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  width: auto;
+  text-align: center;
+	
+}
+.flex-container > div {
+  width: 150px;
+  margin: 30px;
+  line-height: 20px;
+  font-size: 20px;
 }
 
 footer {
-  left: 0;
+  /*left: 0;*/
   bottom: 0;
-  width: 100%;
+  padding-top: 100px;
+  width: auto;
   background-color: white;
   color: black;
-  text-align: center;
+
 }
 .column {
 	width: 960px;
@@ -130,15 +179,76 @@ footer {
 	float: left;
 }
 
+#sitename{
+    text-align: center;
+}
+
+.sectionstyle1{
+	margin-top: 30px;
+	margin-bottom:20px;
+	margin-left:5%;
+	float:center;
+	text-align:center;
+	width:90%;
+}
+.sectionstyle2{
+	margin-top: 30px;
+	margin-bottom:20px;
+	margin-left:5%;
+	float:center;
+	text-align:left;
+	width:90%;
+}
+.sectionstyle3{
+	margin-top: 30px;
+	margin-bottom:20px;
+	margin-left:10%;
+	margin-right:10%;
+	text-align:left;
+	width:95%;
+}
+.sectionstyle4{
+	margin-top: 30px;
+	margin-bottom:20px;
+	margin-left:15%;
+	float:center;
+	text-weight:normal;
+	text-align:center;
+	width:70%;
+}
+.sectionstyle5{
+	margin-top: 30px;
+	margin-bottom:20px;
+	margin-left:15%;
+	float:center;
+	text-weight:normal;
+	text-align:left;
+	width:70%;
+}
+.position{
+	margin-bottom:20px;
+	margin-left:30%;
+	float:center;
+	text-weight:normal;
+	text-align:center;
+	width:70%;
+	line-height: 32px;
+}
 
 h1 {
+	width:auto;
+	margin-top: 20px;
+	padding-left: 100px;
 	font-size: 40px;
 	font-weight: normal;
 	text-align: center;
     padding-top: 30px;
     padding-bottom: 15px;
 }
-h1a {
+h10 {
+	width:auto;
+	margin-top: 20px;
+	padding-left: 100px;
 	font-size: 20px;
 	font-weight: normal;
 	text-align: center;
@@ -190,6 +300,53 @@ h6 {
     line-height: 20px;
     color: #2E2E2E;
 }
+h7{
+	font-size: 12px;
+	color: #2B2B2B;
+	text-align: center;
+}
+h8 {
+  font-size: 17px;
+  line-height: 30px;
+  width: 80%;
+  padding-bottom: 100px;
+}
+h9 {
+  font-size: 17px;
+	text-align: left;
+  line-height: 30px;
+  width: 80%;
+  padding-bottom: 100px;
+}
+h11 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  width: 80%;
+  padding-bottom: 100px;
+}
+h12 {
+  font-size: 20px;
+  color:#313131;
+  font-weight: bold;
+  line-height: 30px;
+  width: 80%;
+  padding-bottom: 100px;
+}
+h13 {
+  font-size: 17px;
+	text-align: center;
+  line-height: 30px;
+  width: 80%;
+  padding-bottom: 100px;
+}
+h14 {
+  font-size: 14px;
+	text-align: center;
+  line-height: 30px;
+  width: 80%;
+  padding-bottom: 100px;
+}
 
 p {
   font-size: 17px;
@@ -198,7 +355,10 @@ p {
   margin-left: 32%;
 }
 
-.dropdownbutton a{
+.dropdownbutton{
+  vertical-align: top;	
+}
+.dropdownbutton a, a:visited{
   width: 4.5em;
   margin: 0 5px;
   padding: .5em 1em;
@@ -213,7 +373,6 @@ p {
     border-color 0.2s, 
     top 0.1s, 
     box-shadow 0.1s; 
-    
 }
 .dropdownbutton a:hover { 	
   background-color: #2689FF; 	
@@ -225,11 +384,11 @@ p {
   box-shadow: 0 1px 2px rgba(0,0,0,.5);
 }
 
-.topbuttons a{
+.topbuttons a,a:visited{
   display: block;
   width: 8em;
   margin: 5 5px;
-  padding: .5em 1em;
+  padding: .1em .5em;
   text-decoration: none;
   text-align: center;
   letter-spacing: .1em;
@@ -255,6 +414,7 @@ p {
 }
 
 .socialmediabuttons{
+	vertical-align: top;
     display:inline-block;  
     float: right;
     padding-left: 10px;
@@ -287,12 +447,10 @@ p {
 }
 
 .backtotopbutton a:link, a:visited {
-  text-shadow: 2px 2px 4px gray;
   border-radius: 8px; 
   transition-duration: 0.4s;
   color: black; 
   background-color: #FFFFFF;
-  box-shadow: 5px 10px 18px #1a1a1a;
   padding: 5px;
   font-weight: bold;
   font-size: 20px;
@@ -306,7 +464,7 @@ p {
 
 }
 .backtotopbutton a:hover {
-  background-color: #0084FF;
+  background-color: #000000;
   color: white; 
 }
 .backtotopbutton a:active {
@@ -314,8 +472,39 @@ p {
   color: white;
 }
 
-hr{
-    border-bottom: 1px solid #FFFFFF;
+.playnowbutton a:link, a:visited {
+  border-radius: 8px; 
+  transition-duration: 0.4s;
+  color: black; 
+  background-color: #FFFFFF;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+  height: 18px;
+  text-decoration: none;
+  display: block; 
+  margin-left: auto;
+	margin-top:10px;
+	margin-bottom:60px;
+  margin-right: auto;
+
+}
+.playnowbutton a:hover {
+  background-color: #000000;
+  color: white; 
+}
+.playnowbutton a:active {
+  background-color: #000C68; 
+  color: white;
+}
+
+hr.v1{
+    border-bottom: 3px solid #000000;
+}
+hr.v2{
+    border-bottom: 3px solid #B1B1B1;
 }
 
 small {
@@ -326,14 +515,62 @@ s2 {
     text-align: center;
 }
 s3 {
-	margin-left: 0%;
+
     font-size: 14px;
-    text-align: left;
-    line-height: 14px;
+    text-align: center;
+    line-height: 30px;
+
 }
 s4 {
 	margin-left: 78%;
     font-size: 14px;
     text-align: right;
     line-height: 14px;
+}
+
+/*RESUME INFORMATION*/
+.job {
+    padding-top:15px;
+	position: relative;
+    text-align: left;
+	color: black;
+
+}
+.text {
+    background-color: #FFFFFF;
+	font-weight: bold;
+    padding: 0 5px; 
+}
+.line {
+    border-top: 1px dashed #fff; 
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: -2;
+}
+.date{
+	float:right;  
+	font-weight: bold;
+    background-color: #FFFFFF;
+padding-right:200px;
+}
+.description{
+	padding:3px;
+	position: relative;
+    text-align: left;
+	color: black;
+	line-height:32px;
+}
+
+ul {
+  background: #FFFFFF;
+  list-style-type: none;
+  width: 1000px;
+	padding-left:30px;
+	line-height: 32px;
+}
+li {
+  background: #FFFFFF;
+	padding-left:10px;
+  line-height: 32px;
 }
