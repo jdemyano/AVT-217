@@ -1,0 +1,12 @@
+/*@charset "utf-8";*/
+#gallery {
+	width: 650px;
+	background-color: #009AC8;
+	padding: 5px;
+}
+
+#gallery img {
+	width: 200px;
+	padding: 5px;
+}
+
